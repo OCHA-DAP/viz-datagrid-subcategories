@@ -1310,6 +1310,7 @@ i[class^='humanitarianicons-'] {
       border-bottom: 0.5px solid #BFBFBF;
       cursor: pointer;
       text-transform: capitalize;
+      white-space: nowrap;
       width: 220px; }
       .table-container tr td.subcategory .icon-container {
         display: inline-block;
@@ -1373,3 +1374,15 @@ i[class^='humanitarianicons-'] {
     border-bottom: 0;
     border-top: 6px solid #000;
     transform: translate(-50%, calc(100%)); }
+
+@media only screen and (max-width: 768px) {
+  main {
+    padding: 0 10px; }
+  h2 {
+    font-size: 13px;
+    line-height: 16px;
+    align-items: center; }
+  .control-order-by .orderDropdown .dropdown-toggle {
+    white-space: nowrap; }
+  .control-order-by .orderDropdown .dropdown-toggle-text {
+    font-size: 13px; } }
