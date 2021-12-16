@@ -41,7 +41,6 @@ $( document ).ready(function() {
       d3.csv(PCT_COMPLETE_SUBCATEGORY),
       d3.csv(PCT_COMPLETE_COUNTRY)
     ]).then(function(d) {
-      console.log('Data loaded');
       let data = d[0];
       let pctSubcategoryData = d[1];
       let pctCountryData = d[2]
@@ -99,9 +98,8 @@ $( document ).ready(function() {
         items.push(item);
       });
 
-      //items.sort((a, b) => (a.percentComplete < b.percentComplete) ? 1 : -1)
       items.push(pctCountryValues);
-      console.log(items);
+      //console.log(items);
 
       createTable();
     });
