@@ -160,7 +160,7 @@ $( document ).ready(function() {
       .classed('rotate', d => d!=='subcategory' && d!=='percentComplete')
       .html(function (d) {
         let iso = (countryMap.get(d)!==undefined) ? (countryMap.get(d)[0]['ISO3']).toUpperCase() : '';
-        return d==='subcategory'||d==='percentComplete' ? '' : `<div><img class="flag" src="https://data.humdata.org/visualization/datagrid/assets/flags/${iso}.png">${d}</div>`;
+        return d==='subcategory'||d==='percentComplete' ? '' : `<div><img class="flag" src="https://ocha-dap.github.io/viz-datagrid/assets/flags/${iso}.png">${d}</div>`;
       });
 
     table.append('tbody');
