@@ -52,7 +52,7 @@ $( document ).ready(function() {
         'Affected People': 'humanitarianicons-Affected-population',
         'Climate': 'humanitarianicons-Drought',
         'Coordination & Context': 'humanitarianicons-Coordination',
-        'Food Security, Nutrition & Poverty': 'humanitarianicons-Food-Security',
+        'Food Security & Nutrition': 'humanitarianicons-Food-Security',
         'Geography & Infrastructure': 'humanitarianicons-Location',
         'Health & Education': 'humanitarianicons-Health'
       };
